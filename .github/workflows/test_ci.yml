@@ -16,7 +16,7 @@ jobs:
       - name: Prettify js code
         uses: creyD/prettier_action@v4.2
         with:
-          prettier_options: --write **/*.{js.ts}
+          prettier_options: --write **/*.{js,ts}
 
   prettier-md:
     runs-on: ubuntu-latest
